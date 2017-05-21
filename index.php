@@ -12,4 +12,4 @@ $fonts = array_map(function($font) {
 
 $response = new JsonResponse();
 $response->setData($fonts);
-$response->send();
+@$response->send();
